@@ -1,7 +1,15 @@
+/* google homepage code has been divided into a grid of four rows for the ease of element placement */
+
 main {
     display: grid;
     margin: 0px;
 }
+
+body {
+    margin: 0px;
+}
+
+/* start row 1 navigation*/
 
 .nav {
     background-color: white;
@@ -11,8 +19,28 @@ main {
     padding-top: 5px;
 }
 
+.nav-items {
+    padding: 10px;  
+}
+
+#google-apps {
+    height: 24px;
+    width: 24px;
+}
+
+.nav-links {
+    font-size: small;
+}
+
+.nav-links:hover {
+    text-decoration: underline;
+}
+/* end row 1 navigation 
+   
+   start row 2 logo and searchbar */
+
 .logo-search {
-    background-color: thistle;
+    background-color: white;
     padding-top: 200px;
     align-items: center;
     display: flex;
@@ -20,39 +48,40 @@ main {
     flex-direction: column;
 }
 
+#search-icon {
+    color: #9aa0a6;
+    fill: currentColor;
+
+    position: relative;
+    top: 5px;
+    left: 10px;
+    padding-right: 15px;
+}
+
+.bar {
+    width: 575px;
+    border-radius: 30px;
+    border: 1px solid #dcdcdc;
+    margin-top: 30px;
+}
+
+.bar:hover {
+    box-shadow: 1px 1px 8px 1px #dcdcdc;
+}
+
+#searchbar {
+    width: 500px;
+    outline:none;
+    border: none;
+    height: 45px;
+    font-size: 16px;
+}
+
+/* end row 2 logo and searchbar 
+    
+   start row 3 search buttons*/
 
 .footer {
     background-color: whitesmoke;
 }
 
-body {
-    margin: 0px;
-}
-
-.nav-items {
-    padding: 10px;
-    
-}
-
-.nav-links {
-    font-size: small;
-    
-}
-
-.nav-links:hover {
-    text-decoration: underline;
-}
-
-svg {
-    color: #9aa0a6;
-    fill: currentColor;
-    width: 20px;
-    height:20px;
-}
-
-form {
-    background-color: darkcyan;
-    display: flex;
-    align-items: center;
-    flex-direction: row-reverse;
-}
