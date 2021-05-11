@@ -8,15 +8,18 @@ main {
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    padding-top: 5px;
 }
 
-.logo-searchbar {
+.logo-search {
     background-color: thistle;
+    padding-top: 200px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
-.search-buttons {
-    background-color: beige;
-}
 
 .footer {
     background-color: whitesmoke;
@@ -38,4 +41,18 @@ body {
 
 .nav-links:hover {
     text-decoration: underline;
+}
+
+svg {
+    color: #9aa0a6;
+    fill: currentColor;
+    width: 20px;
+    height:20px;
+}
+
+form {
+    background-color: darkcyan;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
 }
