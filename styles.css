@@ -1,0 +1,41 @@
+main {
+    display: grid;
+    margin: 0px;
+}
+
+.nav {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.logo-searchbar {
+    background-color: thistle;
+}
+
+.search-buttons {
+    background-color: beige;
+}
+
+.footer {
+    background-color: whitesmoke;
+}
+
+body {
+    margin: 0px;
+}
+
+.nav-items {
+    padding: 10px;
+    
+}
+
+.nav-links {
+    font-size: small;
+    
+}
+
+.nav-links:hover {
+    text-decoration: underline;
+}
